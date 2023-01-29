@@ -1,4 +1,3 @@
-//alert("working")
 function removeComment(){
     var commentBlock = document.getElementById('comments')
     console.log(commentBlock)
