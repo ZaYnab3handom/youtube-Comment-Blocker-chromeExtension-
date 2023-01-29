@@ -1,0 +1,21 @@
+{
+
+    "manifest_version":3,
+    "version":"0.1.0",
+    "name":"Youtube Comment Blocker",
+    "description": "Youtube Comment Blocker Cheome Extension",
+    "content_scripts":[
+        {
+            "matches":["https://www.youtube.com/*"],
+            "js":["index.js"]
+        }
+    ],
+    "action":{
+        "default_popup":"index.html"
+    },
+    "icons":{
+        "18":"/imgs/icon16.png",
+        "46":"/imgs/icon48.png",
+        "128":"/imgs/icon128.png"
+    }
+}
