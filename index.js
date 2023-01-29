@@ -1,12 +1,14 @@
 //alert("working")
 function removeComment(){
-    var x = document.getElementById('comments')
-    console.log(x)
-    x.remove();
+    var commentBlock = document.getElementById('comments')
+    console.log(commentBlock)
+    commentBlock.remove();
+    //commentBlock.style.visibility="hidden";
+
  }
 // window.onload = removeComment
 //     // visibility = "hidden"
 
-setTimeout(removeComment,1000)
+setTimeout(removeComment,2000)
 
 
